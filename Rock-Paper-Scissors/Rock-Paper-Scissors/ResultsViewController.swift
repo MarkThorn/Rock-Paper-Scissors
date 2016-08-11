@@ -13,13 +13,12 @@ import UIKit
 
 class ResultsViewController: UIViewController {
     
-    var res: String?
-    
     @IBOutlet var LabelResults: UILabel!
-    
 
+    @IBOutlet weak var ImageResult: UIImageView!
+    
     override func viewWillAppear(animated: Bool) {
-        LabelResults.text = res
+
     }
     
 }
